@@ -1,0 +1,5 @@
+pyquery==1.4.0
+xpinyin==0.5.6
+requests==2.21.0
+Django==2.2
+PyYAML==5.1
