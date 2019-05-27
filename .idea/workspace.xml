@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b66ff088-703a-4991-bffa-f7dcae7cb3e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_weather/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_weather/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +56,7 @@
           <entry key="activate" value="1" />
           <entry key="bat" value="1" />
           <entry key="jpg" value="8" />
-          <entry key="py" value="172" />
+          <entry key="py" value="175" />
           <entry key="txt" value="2" />
           <entry key="yaml" value="10" />
         </counts>
@@ -64,21 +65,21 @@
         <counts>
           <entry key="Image" value="8" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="172" />
+          <entry key="Python" value="175" />
           <entry key="YAML" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="py" value="14054" />
+          <entry key="py" value="14312" />
           <entry key="yaml" value="313" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="14054" />
+          <entry key="Python" value="14312" />
           <entry key="YAML" value="313" />
         </counts>
       </usages-collector>
@@ -115,7 +116,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apis/admin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
@@ -130,11 +131,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apis/views/weather.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
+            <state relative-caret-position="274">
               <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
                 <marker date="1558660600000" expanded="true" signature="352:1019" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_weather/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="530">
+              <caret line="223" column="35" selection-start-line="223" selection-start-column="35" selection-end-line="223" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cron/jobs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding>
+                <element signature="e#50#71#0" expanded="true" />
+                <marker date="1558920992000" expanded="true" signature="136:141" ph="..." />
               </folding>
             </state>
           </provider>
@@ -202,24 +225,25 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/log_test.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/apis/views/menu.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/init.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/apis/views/image.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/apis/views/weather.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/apis/views/service.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/authorization/urls.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/apis/urls.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/apis/models.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/apis/admin.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cron/jobs.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/log_test.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/init.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/authorization/urls.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/authorization/views.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/test_weather/settings.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/utils/proxy.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/authorization/models.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/utils/wx/auth.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/apis/models.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/utils/timeutil.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/utils/constellation.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/authorization/admin.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/apis/admin.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/test_weather/urls.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/utils/stock.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/test_weather/version_1_0.py" root0="SKIP_INSPECTION" />
@@ -268,6 +292,7 @@
         <option value="$PROJECT_DIR$/utils/constellation.py" />
         <option value="$PROJECT_DIR$/apis/views/service.py" />
         <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/cron/jobs.py" />
         <option value="$PROJECT_DIR$/test_weather/settings.py" />
       </list>
     </option>
@@ -278,11 +303,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-10" />
-    <option name="y" value="-20" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="30" />
+    <option name="y" value="120" />
     <option name="width" value="2766" />
-    <option name="height" value="1854" />
+    <option name="height" value="1734" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -298,6 +323,11 @@
               <item name="test_weather" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_weather" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="test_weather" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_weather" type="462c0819:PsiDirectoryNode" />
+              <item name="cron" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -306,7 +336,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../imooc_code/jarvis/code/chapter-7/7-4/backend-7-4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../imooc_code/jarvis/code/chapter-7/7-2/backend-7-2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -505,13 +535,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1381" height="885" extended-state="7" />
+    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5029354" side_tool="true" weight="0.2532124" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4970646" visible="true" weight="0.1670446" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" weight="0.32891247" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.42762285" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.078353256" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50037795" side_tool="true" weight="0.24270557" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
@@ -539,13 +570,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Program Files/Python/Lib/site-packages/twisted/python/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="764" column="8" selection-start-line="764" selection-start-column="8" selection-end-line="764" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python/Lib/site-packages/django/utils/datastructures.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -779,17 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apis/views/weather.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1558660600000" expanded="true" signature="352:1019" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/constellation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -849,13 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_weather/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apis/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -863,6 +869,35 @@
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apis/views/weather.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1558660600000" expanded="true" signature="352:1019" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cron/jobs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#50#71#0" expanded="true" />
+            <marker date="1558920992000" expanded="true" signature="136:141" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_weather/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="223" column="35" selection-start-line="223" selection-start-column="35" selection-end-line="223" selection-end-column="35" />
         </state>
       </provider>
     </entry>

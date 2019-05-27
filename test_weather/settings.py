@@ -37,8 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # 新应用
     'apis.apps.AppConfig',
-    'authorization.apps.AuthorizationConfig'
+    'authorization.apps.AuthorizationConfig',
+    # 第三方应用
+    'django_crontab'
 ]
 
 MIDDLEWARE = [
@@ -170,3 +173,54 @@ CACHES = {
         'LOCATION': 'backend-cache'
     }
 }
+
+LOG_DIR = os.path.join(BASE_DIR, 'log')
+if not os.path.exists(LOG_DIR):
+    os.makedirs(LOG_DIR)
+
+LOGGING = {
+    'version': 1,
+    # 日志格式
+    'formatters': {
+        'standard': {
+            'format': '%(asctime)s [%(threadName)s: %(thread)d]'
+                      '%(pathname)s:%(funcName)s:%(lineno)d %(levelname)s - %(message)s'
+        }
+    },
+    # 过滤器
+    'filters': {
+        'test': {
+            '()': 'ops.TestFilter'
+        }
+    },
+    # 处理器
+    'handlers':{
+        'console_handler': {
+            'level': 'INFO',
+            'class': 'logging.StreamHandler',
+            'formatter': 'standard'
+        },
+        'file_handler': {
+            'level': 'DEBUG',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': os.path.join(LOG_DIR, 'backend.log'),
+            'maxBytes': 1024*1024*1024,
+            'backupCount': 5,
+            'formatter': 'standard',
+            'encoding': 'utf-8'
+        }
+    },
+    # 日志实例
+    'loggers': {
+        'django': {
+            'handlers': ['console_handler', 'file_handler'],
+            'filters': ['test'],
+            'level': 'DEBUG'
+        }
+    }
+}
+
+CRONJOBS = [
+    ('*/1 * * * * ','cron.jobs.demo')
+]
+
