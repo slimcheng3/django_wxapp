@@ -1,0 +1,18 @@
+2019-05-27 12:08:00,154 [MainThread: 6208]C:\Program Files\Python\Lib\site-packages\django\utils\autoreload.py:run_with_reloader:578 INFO - Watching for file changes with StatReloader
+2019-05-27 12:08:00,168 [MainThread: 6208]C:\Program Files\Python\Lib\site-packages\django\utils\autoreload.py:run:267 DEBUG - Waiting for apps ready_event.
+2019-05-27 12:08:00,281 [MainThread: 6208]C:\Program Files\Python\Lib\site-packages\django\utils\autoreload.py:wait_for_apps_ready:263 DEBUG - Main Django thread has terminated before apps are ready.
+2019-05-27 12:09:30,911 [MainThread: 3952]C:\Program Files\Python\Lib\site-packages\django\utils\autoreload.py:run_with_reloader:578 INFO - Watching for file changes with StatReloader
+2019-05-27 12:09:30,913 [MainThread: 3952]C:\Program Files\Python\Lib\site-packages\django\utils\autoreload.py:run:267 DEBUG - Waiting for apps ready_event.
+2019-05-27 12:09:31,013 [MainThread: 3952]C:\Program Files\Python\Lib\site-packages\django\utils\autoreload.py:wait_for_apps_ready:263 DEBUG - Main Django thread has terminated before apps are ready.
+2019-05-27 12:09:36,934 [MainThread: 11632]C:\Program Files\Python\Lib\site-packages\django\utils\autoreload.py:run_with_reloader:578 INFO - Watching for file changes with StatReloader
+2019-05-27 12:09:36,938 [MainThread: 11632]C:\Program Files\Python\Lib\site-packages\django\utils\autoreload.py:run:267 DEBUG - Waiting for apps ready_event.
+2019-05-27 12:09:37,045 [MainThread: 11632]C:\Program Files\Python\Lib\site-packages\django\utils\autoreload.py:wait_for_apps_ready:263 DEBUG - Main Django thread has terminated before apps are ready.
+2019-05-27 12:10:12,146 [MainThread: 19324]C:\Program Files\Python\Lib\site-packages\django\utils\autoreload.py:run_with_reloader:578 INFO - Watching for file changes with StatReloader
+2019-05-27 12:10:12,148 [MainThread: 19324]C:\Program Files\Python\Lib\site-packages\django\utils\autoreload.py:run:267 DEBUG - Waiting for apps ready_event.
+2019-05-27 12:10:12,248 [MainThread: 19324]C:\Program Files\Python\Lib\site-packages\django\utils\autoreload.py:wait_for_apps_ready:263 DEBUG - Main Django thread has terminated before apps are ready.
+2019-05-27 12:14:49,887 [MainThread: 2116]C:\Program Files\Python\Lib\site-packages\django\utils\autoreload.py:run_with_reloader:578 INFO - Watching for file changes with StatReloader
+2019-05-27 12:14:49,891 [MainThread: 2116]C:\Program Files\Python\Lib\site-packages\django\utils\autoreload.py:run:267 DEBUG - Waiting for apps ready_event.
+2019-05-27 12:14:49,998 [MainThread: 2116]C:\Program Files\Python\Lib\site-packages\django\utils\autoreload.py:wait_for_apps_ready:263 DEBUG - Main Django thread has terminated before apps are ready.
+2019-05-27 12:15:14,009 [MainThread: 188]C:\Program Files\Python\Lib\site-packages\django\utils\autoreload.py:run_with_reloader:578 INFO - Watching for file changes with StatReloader
+2019-05-27 12:15:15,021 [MainThread: 188]C:\Program Files\Python\Lib\site-packages\django\utils\autoreload.py:run:267 DEBUG - Waiting for apps ready_event.
+2019-05-27 12:15:15,140 [MainThread: 188]C:\Program Files\Python\Lib\site-packages\django\utils\autoreload.py:wait_for_apps_ready:263 DEBUG - Main Django thread has terminated before apps are ready.
