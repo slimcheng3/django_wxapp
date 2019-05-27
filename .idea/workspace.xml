@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b66ff088-703a-4991-bffa-f7dcae7cb3e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test_weather/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_weather/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,14 +71,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="py" value="14045" />
+          <entry key="py" value="14054" />
           <entry key="yaml" value="313" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="14045" />
+          <entry key="Python" value="14054" />
           <entry key="YAML" value="313" />
         </counts>
       </usages-collector>
@@ -115,23 +115,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apis/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="342">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_weather/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="105" column="32" lean-forward="true" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -287,7 +278,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-20" />
     <option name="width" value="2766" />
@@ -514,13 +505,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="45" width="1383" height="927" extended-state="0" />
+    <frame x="-6" y="-6" width="1381" height="885" extended-state="7" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5029354" side_tool="true" weight="0.2532124" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4970646" visible="true" weight="0.16679245" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4970646" visible="true" weight="0.1670446" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" weight="0.32891247" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.23144653" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.42762285" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50037795" side_tool="true" weight="0.24270557" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
@@ -788,16 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apis/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apis/views/weather.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -870,8 +851,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_weather/settings.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apis/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="105" column="32" lean-forward="true" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
