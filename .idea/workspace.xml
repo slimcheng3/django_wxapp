@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b66ff088-703a-4991-bffa-f7dcae7cb3e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/middleware.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cron/jobs.py" beforeDir="false" afterPath="$PROJECT_DIR$/cron/jobs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opt/emaildemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/opt/emaildemo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/backend.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/middleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/module/middleware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_weather/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_weather/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,6 +16,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/test_weather$test.coverage" NAME="test Coverage Results" MODIFIED="1559025758455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_weather$jobs.coverage" NAME="jobs Coverage Results" MODIFIED="1559026228652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cron" />
     <SUITE FILE_PATH="coverage/test_weather$joke.coverage" NAME="joke Coverage Results" MODIFIED="1558424520871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/test_weather$log_test.coverage" NAME="log_test Coverage Results" MODIFIED="1559011214835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test_weather$menu.coverage" NAME="menu Coverage Results" MODIFIED="1558147589919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apis/views" />
@@ -26,7 +26,7 @@
     <SUITE FILE_PATH="coverage/test_weather$image.coverage" NAME="image Coverage Results" MODIFIED="1558160633209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apis/views" />
     <SUITE FILE_PATH="coverage/test_weather$constellation.coverage" NAME="constellation Coverage Results" MODIFIED="1558402882059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/test_weather$stock.coverage" NAME="stock Coverage Results" MODIFIED="1558359220882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/test_weather$emaildemo.coverage" NAME="emaildemo Coverage Results" MODIFIED="1558971793379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opt" />
+    <SUITE FILE_PATH="coverage/test_weather$emaildemo.coverage" NAME="emaildemo Coverage Results" MODIFIED="1559022449605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opt" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -63,7 +63,8 @@
           <entry key="activate" value="1" />
           <entry key="bat" value="1" />
           <entry key="jpg" value="8" />
-          <entry key="py" value="197" />
+          <entry key="log" value="11" />
+          <entry key="py" value="217" />
           <entry key="txt" value="4" />
           <entry key="yaml" value="10" />
         </counts>
@@ -71,23 +72,23 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="8" />
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="197" />
+          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="Python" value="217" />
           <entry key="YAML" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="py" value="16793" />
-          <entry key="txt" value="20" />
+          <entry key="py" value="16969" />
+          <entry key="txt" value="24" />
           <entry key="yaml" value="313" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="29" />
-          <entry key="Python" value="16793" />
+          <entry key="PLAIN_TEXT" value="33" />
+          <entry key="Python" value="16969" />
           <entry key="YAML" value="313" />
         </counts>
       </usages-collector>
@@ -97,7 +98,89 @@
     <favorites_list name="test_weather" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cron/jobs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+              <folding>
+                <element signature="e#50#83#0" expanded="true" />
+                <marker date="1559026230000" expanded="true" signature="324:329" ph="..." />
+                <marker date="1559026230000" expanded="true" signature="476:2554" ph="..." />
+                <marker date="1559026230000" expanded="true" signature="1864:2554" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/middleware.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#50#83#0" expanded="true" />
+                <marker date="1559025134000" expanded="true" signature="219:941" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/init.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#50#82#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="19" selection-end-column="16" />
+              <folding>
+                <element signature="e#51#66#0" expanded="true" />
+                <marker date="1559025846000" expanded="true" signature="635:674" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/statistics.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1796" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apis/views/service.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="81" column="49" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="49" />
+              <folding>
+                <element signature="e#50#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_weather/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="191" column="36" selection-start-line="191" selection-start-column="36" selection-end-line="191" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -108,6 +191,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/apis/views/menu.py" root0="SKIP_INSPECTION" />
@@ -119,6 +203,7 @@
     <setting file="file://$PROJECT_DIR$/apis/admin.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/cron/jobs.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/requirements.txt" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/module/middleware.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/init.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/opt/emaildemo.py" root0="SKIP_INSPECTION" />
@@ -179,12 +264,14 @@
         <option value="$PROJECT_DIR$/apis/views/service.py" />
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/opt/emaildemo.py" />
-        <option value="$PROJECT_DIR$/module/middleware.py" />
         <option value="$PROJECT_DIR$/a.txt" />
         <option value="$PROJECT_DIR$/log_test.py" />
-        <option value="$PROJECT_DIR$/cron/jobs.py" />
-        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/module/middleware.py" />
         <option value="$PROJECT_DIR$/test_weather/settings.py" />
+        <option value="$PROJECT_DIR$/log/statistics.log" />
+        <option value="$PROJECT_DIR$/log/backend.log" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/cron/jobs.py" />
       </list>
     </option>
   </component>
@@ -195,10 +282,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="614" />
-    <option name="y" value="152" />
-    <option name="width" value="2766" />
-    <option name="height" value="1734" />
+    <option name="x" value="-152" />
+    <option name="y" value="354" />
+    <option name="width" value="2618" />
+    <option name="height" value="1448" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -218,11 +305,6 @@
               <item name="test_weather" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_weather" type="462c0819:PsiDirectoryNode" />
               <item name="cron" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_weather" type="462c0819:PsiDirectoryNode" />
-              <item name="test_weather" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -255,29 +337,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.log_test">
-    <configuration name="constellation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="test_weather" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/constellation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.jobs">
     <configuration name="emaildemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test_weather" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -322,7 +382,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="joke" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="jobs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test_weather" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -330,12 +390,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cron" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/joke.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cron/jobs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -358,6 +418,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/log_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test_weather" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -392,19 +474,19 @@
     </configuration>
     <list>
       <item itemvalue="Django server.test_weather" />
-      <item itemvalue="Python.constellation" />
-      <item itemvalue="Python.joke" />
       <item itemvalue="Python.init" />
       <item itemvalue="Python.log_test" />
       <item itemvalue="Python.emaildemo" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.jobs" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.log_test" />
+        <item itemvalue="Python.jobs" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.emaildemo" />
+        <item itemvalue="Python.log_test" />
         <item itemvalue="Python.init" />
-        <item itemvalue="Python.joke" />
-        <item itemvalue="Python.constellation" />
       </list>
     </recent_temporary>
   </component>
@@ -419,6 +501,14 @@
       <option name="presentableId" value="Default" />
       <updated>1558009954098</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;11&quot;">
+      <created>1559019439220</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559019439221</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -432,23 +522,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5029354" side_tool="true" weight="0.2532124" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4970646" visible="true" weight="0.1670446" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4970646" visible="true" weight="0.1670446" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" weight="0.32802126" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.26560426" />
-      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50037795" side_tool="true" weight="0.24270557" />
-      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50037795" side_tool="true" weight="0.24270557" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32270917" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.30942896" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49962208" weight="0.37184596" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49962208" visible="true" weight="0.2749004" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Python Console" order="11" weight="0.32891247" />
-      <window_info anchor="bottom" id="TODO" order="12" weight="0.32891247" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.32802126" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32802126" />
       <window_info anchor="right" id="R Graphics" order="0" />
       <window_info anchor="right" id="R Packages" order="1" />
       <window_info anchor="right" id="SciView" order="2" />
@@ -461,8 +552,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;11&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;11&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -476,40 +574,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resource/images/11962cf19500381d99f10ede227f93a7.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apis/views/image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/joke.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authorization/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/proxy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1879517127/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="149" column="34" selection-start-line="149" selection-start-column="34" selection-end-line="149" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/authorization/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -517,13 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="469">
           <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authorization/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -576,6 +633,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="673">
           <caret line="85" column="23" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1558600898000" expanded="true" signature="362:367" ph="..." />
+            <marker date="1558600898000" expanded="true" signature="564:569" ph="..." />
+            <marker date="1558600898000" expanded="true" signature="2511:3543" ph="..." />
+            <marker date="1558600898000" expanded="true" signature="3804:3805" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -600,13 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apis/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_weather/version_1_0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -625,6 +682,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
           <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+          <folding>
+            <element signature="e#50#61#0" expanded="true" />
+            <marker date="1558771220000" expanded="true" signature="1105:2438" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -670,29 +731,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python/Lib/site-packages/django/apps/registry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="161" selection-start-line="161" selection-end-line="161" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#84#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apis/views/service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1482">
-          <caret line="81" column="49" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="49" />
-          <folding>
-            <element signature="e#50#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -708,16 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_weather/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="e#636#668#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -742,13 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python/Lib/logging/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="621" column="38" lean-forward="true" selection-start-line="621" selection-start-column="38" selection-end-line="621" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/stock.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-209">
@@ -756,16 +783,6 @@
           <folding>
             <element signature="e#50#65#0" expanded="true" />
             <marker date="1558666836000" expanded="true" signature="331:336" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/init.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="e#50#82#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -798,21 +815,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/middleware.py">
+    <entry file="file://C:/Program Files/Python/Lib/site-packages/django/apps/registry.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="2712">
+          <caret line="161" selection-start-line="161" selection-end-line="161" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python/Lib/logging/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="611" selection-start-line="611" selection-end-line="611" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python/Lib/site-packages/django/core/management/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8094">
+          <caret line="435" selection-start-line="435" selection-end-line="435" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python/Lib/wsgiref/simple_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="383" selection-start-line="383" selection-end-line="383" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apis/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding>
-            <element signature="e#50#83#0" expanded="true" />
-            <marker date="1559009684000" expanded="true" signature="219:936" ph="..." />
+            <element signature="e#50#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authorization/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#50#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_weather/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="e#636#668#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/opt/emaildemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="36" lean-forward="true" selection-start-line="4" selection-end-line="6" selection-end-column="36" />
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#50#67#0" expanded="true" />
             <marker date="1558971794000" expanded="true" signature="255:260" ph="..." />
@@ -820,33 +891,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/module/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#50#83#0" expanded="true" />
+            <marker date="1559025134000" expanded="true" signature="219:941" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python/Lib/site-packages/django/core/handlers/exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apis/views/service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="81" column="49" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="49" />
+          <folding>
+            <element signature="e#50#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_weather/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+        <state relative-caret-position="344">
+          <caret line="191" column="36" selection-start-line="191" selection-start-column="36" selection-end-line="191" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/backend.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3430" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/statistics.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1796" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#50#82#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="137">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="19" selection-end-column="16" />
           <folding>
             <element signature="e#51#66#0" expanded="true" />
-            <marker date="1559013252000" expanded="true" signature="92:359" ph="..." />
+            <marker date="1559025846000" expanded="true" signature="635:674" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cron/jobs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+        <state relative-caret-position="374">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
           <folding>
-            <element signature="e#50#75#0" expanded="true" />
-            <marker date="1559012992000" expanded="true" signature="228:233" ph="..." />
-            <marker date="1559012992000" expanded="true" signature="380:2390" ph="..." />
-            <marker date="1559012992000" expanded="true" signature="1751:2390" ph="..." />
+            <element signature="e#50#83#0" expanded="true" />
+            <marker date="1559026230000" expanded="true" signature="324:329" ph="..." />
+            <marker date="1559026230000" expanded="true" signature="476:2554" ph="..." />
+            <marker date="1559026230000" expanded="true" signature="1864:2554" ph="..." />
           </folding>
         </state>
       </provider>

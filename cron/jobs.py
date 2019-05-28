@@ -1,11 +1,14 @@
 #!/usr/bin/env python   
 # -*- coding: utf-8 -*-
 
-import datetime, time, os
+import datetime, time, os, django
 from test_weather import settings
 import logging
 import smtplib
 from email.mime.text import MIMEText
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE','test_weather.settings')
+django.setup()
 
 logger = logging.getLogger('django')
 
@@ -17,7 +20,7 @@ def demo():
 
 # 分析日志任务
 def statistics():
-    读取统计的log内容
+    # 读取统计的log内容
     data_file = os.path.join(settings.BASE_DIR, 'log', 'statistics.log')
     if not data_file:
         logger.warning('file not exist.file=[%s]' % data_file)
@@ -28,7 +31,7 @@ def statistics():
         for line in data_file:
             content = line.split(" ")[2]
             content_list = content.split(settings.STATISTICS_SPLIT_FLAG)
-            日志记录时间
+            # 日志记录时间
             log_time = int(content_list[0].split("=")[1][1:-1])
             # 请求地址
             log_path = content_list[2].split("=")[1][1:-1]
@@ -39,9 +42,9 @@ def statistics():
 
 
             # 记录数据
-            if path not in result.keys():
-                result[path] = []
-            result[path].append(log_cost)
+            if log_path not in result.keys():
+                result[log_path] = []
+            result[log_path].append(log_cost)
 
     # 最大值、最小值、平均值
     report_content = []
@@ -59,8 +62,7 @@ def statistics():
         report_content.append(content)
     return report_content
 
-发用邮件
-
+# 发用邮件
 def report_by_email():
     logger.info('Begin statistics data.')
     content = statistics()
@@ -76,6 +78,10 @@ def report_by_email():
     server.sendmail(settings.EMAIL_FROM, receivers, msg.as_string())
     server.close()
     logger.info('Send monitor Email success.')
+
+
+if __name__ == "__main__":
+    report_by_email()
 
 
 
