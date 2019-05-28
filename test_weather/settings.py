@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'apis.apps.AppConfig',
     'authorization.apps.AuthorizationConfig',
     # 第三方应用
-    # 'django_crontab'
+    'django_crontab'
 ]
 
 MIDDLEWARE = [
