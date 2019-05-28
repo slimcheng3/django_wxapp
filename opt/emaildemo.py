@@ -6,7 +6,8 @@ import smtplib
 from test_weather import settings
 from email.mime.text import MIMEText
 
-os.environ.setdefault('DJANGO__SETTINGS_MODULE', 'test_weather.settings')
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE','test_weather.settings')
 django.setup()
 
 def mail():
