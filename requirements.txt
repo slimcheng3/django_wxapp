@@ -56,7 +56,7 @@ text-unidecode==1.2
 Twisted==18.9.0
 urllib3==1.24.1
 w3lib==1.20.0
-Werkzeug==0.15.2
+Werkzeug==0.15.3
 xpinyin==0.5.6
 yarg==0.1.9
 zope.interface==4.6.0
